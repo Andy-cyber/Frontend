@@ -1,0 +1,63 @@
+body {
+    display: flex;
+}
+
+#app {
+    margin: auto; 
+}
+
+.post{
+    border-color: black;
+    border-style: solid;
+	border-width: 1px;
+	padding: 25px;
+	width: 85vw;
+	margin: 0 auto;
+}
+
+input[type=text]{
+	padding: 5px;
+	margin: 4px;
+    height: 1.5em;
+    width: 45%;
+}
+
+textarea{
+	margin: 4px;
+    height: 2em;
+    width: 45%;
+}
+
+.form{
+    padding: 35px;
+	width: 65vw;
+	margin: 0 auto;
+	display: flex;
+}
+
+.deleteBtn {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 95%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+}
+
+.dateLine{
+    text-align: right;
+}
+
+#submitBtn {
+    flex: 1 1;
+    background-color: silver;
+    color: silver;
+}
+
+#submitBtn:disabled{
+    background-color: rgb(0, 127, 255);
+}
